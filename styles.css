@@ -1,0 +1,435 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.banner-background{
+    background-color: #24292E;
+    
+}
+
+.banner-icon-image{
+    width: 6%;
+    margin-left: 50%;
+}
+
+.nav-bar{
+    text-align: right;
+    margin-left: 55%;
+    
+    
+}
+nav{
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+  
+}
+.nav-ul {
+    list-style: none;
+    display: flex;
+    text-align: left;
+    
+  
+}
+.nav-a{
+    text-decoration: none;
+   
+    
+}
+nav ul{
+    display: flex;
+
+}
+nav ul li a{
+    margin: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Arial;;
+    color: white;
+}
+.self-1{
+    
+        font-size: 300%;
+        color:#F21170;
+        text-align: center;
+        font-family: ARIAL;
+        font-weight: bolder;
+      
+        
+        
+    }
+.header-logo-image{
+    width: 30px;
+    height: 0.9%;
+    
+    margin-bottom: -12px;
+    
+    
+    
+}
+
+.header-logo{
+   
+    margin-left: 45px;
+    justify-content: space-evenly;
+   
+
+    
+}
+.header-logo-name{
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    font-variant: unset;
+    padding-top: -5px;
+ 
+}
+span.line1{
+    width:400px;
+	height:3px;
+	background-color:#fff;
+	display:inline-block;
+	margin:0 auto;
+
+}
+span.line2{
+    width:400px;
+	height:3px;
+	display:inline-block;
+	background-color:#fff;
+	margin:0 auto;
+   
+}
+.my-name{
+    color: white;
+    font-family: Arial;
+    font-size: 30px;
+}
+.profession{
+    color: white;
+    font-family: Arial;
+    font-style: italic ;
+
+}
+
+.button-1{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: wheat;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px; 
+    width: 180px;
+    padding: 10px ;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial;
+    font-size: 18px;
+    background-image: linear-gradient(315deg, #6b0f1a 0%, #b91372 74%);
+    margin-bottom: 10px;
+    
+}
+
+
+.button-2{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: wheat;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px; 
+    width: 180px;
+    padding: 10px ;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial;
+    font-size: 18px;
+    background-image: linear-gradient(315deg, #6b0f1a 0%, #b91372 74%);
+    margin-bottom: 10px;
+    
+
+}
+.button-3{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color: wheat;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px; 
+    width: 180px;
+    padding: 10px ;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial;
+    font-size: 18px;
+    background-image: linear-gradient(315deg, #6b0f1a 0%, #b91372 74%);
+    margin-bottom: 30%;
+    
+}
+.banner-call-to-action{
+    margin-left: 80%;
+    /* margin-top: -10px; */
+   
+}
+
+.about-h1{
+    
+	font-size:90px;
+	font-family: "Poppins";
+    text-align: center;
+    color: #5e5e5e;
+    font-weight: 900;
+    line-height: .5rem;
+    
+   
+}
+
+.about-h2{
+    color: #171313;
+    font-family: "Poppins";
+    font-size: 40px;
+
+}
+.about-text{
+    color: #687980;
+    font-size: 20px;
+    font-family: Arial;
+   
+
+}
+.about-section{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.ex-p{
+    font-size: 20px;
+    text-align: center;
+   color:#171010 ;
+   font-style: italic;
+   font-weight: bold;
+   
+}
+.girl{
+    margin-left: 30%;
+    
+}
+.time{
+    color: #F21170;
+    font-weight: bold;
+    font-family: cursive;
+}
+h4{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.working{
+    color: #536162;
+    font-family: Arial;
+    font-weight: bold;
+    padding-bottom: 30px;
+   
+}
+.work,.work-2{
+    display: inline-block;
+    margin: 60px;
+    margin-top: -2px;
+    margin-bottom: -30px;
+
+}
+.text-container{
+    margin-right: 100px;
+}
+
+.skill-logo-image{
+    width: 110%;
+}
+.skill-logo,.skills{
+    display: inline-block ;
+    margin: 60px;
+    margin-top: -10px;
+}
+.skill-p{
+   color: black;
+   font-size: 26px;
+   font-weight: bolder;
+}
+.skill-list{
+    font-size: 20px;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #BF1363;
+    font-weight: 500;
+    list-style-type:url()
+}
+
+.project-text{
+    color: black;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Arial;
+    text-align: center;
+    margin-left: 60px;
+    margin-right:60px ;
+    padding-bottom: 35px;
+
+}
+.project-1{
+    width: 80%;
+  
+   
+}
+.project-2{
+    width:80%;
+    margin-top: 120px;
+    
+}
+.prj-clm-1,.prj-clm-2{
+    display: inline-block;
+
+    margin-left: 90px;
+    margin-right:-50px 
+}
+.prj-clm-2{
+    margin-top: 5px;
+}
+.project-3{
+    width: 80%;
+   
+}
+.project-4{
+    width: 80%;
+    margin-top: 100px;
+}
+
+h5{
+    font-size: 20px;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #BF1363;
+    font-weight: 500;
+}
+.projecting{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mouse-hover-1:hover{
+    border-radius: 70px;
+    transition-property: border-radius;
+    transition-duration: .2s ;
+    transition-timing-function: linear;
+ 
+}
+
+#mouse-hover-2:hover{
+    
+    border-radius: 70px;
+    transition-property: border-radius ;
+    transition-duration: .2s ;
+    transition-timing-function: linear;
+ 
+}
+
+#mouse-hover-3:hover{
+    
+    border-radius: 70px;
+    transition-property: border-radius ;
+    transition-duration: .2s ;
+    transition-timing-function: linear;
+ 
+}
+#mouse-hover-4:hover{
+    
+    border-radius: 70px;
+    transition-property: border-radius ;
+    transition-duration: .2s ;
+    transition-timing-function: linear;
+ 
+}
+
+
+
+ 
+form{
+    border: 2px, transparent;
+}
+.form1{
+    background-color: transparent;
+     
+}
+
+#email{
+    background-color:#EEEEEE;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 20rem;
+    width: 50rem;
+    height: 31px;
+    
+    
+}
+#message{
+    background-color: #EEEEEE;
+    font-size: 20px;
+    color: aliceblue;
+    
+    margin-left: 20rem;
+    margin-top: 33px;
+    width: 50rem;
+    height: 13rem;
+}
+#name{
+    background-color: #EEEEEE;
+  
+   font-size: 20px;
+   color: aliceblue;
+    margin-left: 320px;
+    width: 50rem;
+    height: 35px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+
+}  
+button{
+    width: 150px;
+    height:40px
+}
+.btn-primary{
+    margin-left: 660px;
+    margin-top: 20px ;
+    margin-bottom: 10px;
+}
+.ending{
+    background-color:#24292E;;
+    text-align: center;
+    margin-top: -50;
+}
+.social-icon{
+    width: 40px;
+    margin:15px
+
+} 
+#copyright{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.copy{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.footer-image{
+    width: 150px;
+}
