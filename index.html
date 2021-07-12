@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wemmy-Portfolio</title>
+    <link rel="stylesheet" href="styles.css"/>
+
+</head>
+<body>
+    <div class="banner-background">
+        <header class="site-header">
+               <!-- Navigation Bar -->
+            <nav class="nav-bar">
+                <ul class="nav-ul">
+                    <li><a class="nav-a" href="#home">Home</a></li>
+                    <li><a class="nav-a" href="#about">About</a></li>
+                    <li><a class="nav-a" href="#portfolio">Portfolio</a></li>
+                    <li><a class="nav-a" href="#contacts">Contact</a></li>
+                </ul>
+            </nav>
+
+                  <!-- My name logo -->
+            <div class="header-logo">
+               <img class="header-logo-image" src="https://image.flaticon.com/icons/png/128/1353/1353512.png" alt="header-logo">
+               <h3 class="header-logo-name">Wemmy</h3>
+            </div>
+
+            
+                   <!-- banner icon -->
+            <div class="banner-icon">
+                <img class="banner-icon-image" src="data:image/png;base64,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" alt="banner-logo-image">
+            </div>
+
+                  <!-- banner text -->
+            <div>
+                <h1 class="self-1">I love to create<br>Beautiful and <br>efficient websites </h1>
+            </div>
+
+
+                   <!-- banner text -->
+           <div class="banner-bottom">
+               <div class="wemmy">
+            <ul>
+                <li>
+                        <h1 class="my-name">Hey There,<br>I'm Wemmy Wangari</h1>
+                        <span class="line1"></span>
+                        <p class="profession">A full stack professional Website Developer</p>
+                        <span class="line2"></span>	
+                </li>
+            </ul>
+                </div>
+        </div>
+
+
+                  <!-- Call to action -->
+        <div class="banner-call-to-action">
+            <a class="button-1" href="#portfolio">View portfolio</a>
+            <a class="button-2" href="#contacts">Contact Me</a>
+            <a class="button-3" href="#contacts">Hire Me</a>
+        </div>
+        </header>
+    </div>
+
+
+              <!-- about me -->
+    <div class="about-section">
+        <div class="about-me" id="about"> 
+            <h1 class="about-h1">About Me</h1>
+            <h2 class="about-h2">Who I Am?</h2>
+            <p class="about-text">I am a professional Website Developer with 5 years of commercial experience.I create beautiful and efficient website that are fast,east to use and built with top most practice.</p>
+            <p class="about-text">I work to make better and efficient websites,one that is frustration-free,fast,easy to use and beautiful.I take great pride in not only being able to complete  work to the high standard you expect but also go the extra mile where possible.</p>
+        </div>
+
+            <div class="girl">
+                <img class="photo-of-me" src="https://images.unsplash.com/photo-1510337058415-2ebf995cfd08?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8YmVhdXRpZnVsJTIwZ2lybCUyMHdpdGglMjBhJTIwZG9nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="me-image">
+            </div>
+
+
+            <!-- my work experiences -->
+            <h2 class="about-h2">My Work Experiences</h2>
+            <p class="ex-p">Here are some of the work experiences i have had over the years in my profession.</p>
+            
+            <div class="work">
+                    <div class="text-container">
+                            <div class="time">2019-Present</div>
+                            <h4>Freelance Web Developer</h4>
+                            <p class="working">Built my own company that aimed at building Websites<br> for people,companies or organizations</p>
+                       
+           
+                            <div class="time">2018-2019</div>
+                            <h4>Lead Web Developer</h4>
+                            <p class="working">Web Designer for Multimedia Digital Agency</p>
+                    </div>
+            </div>       
+
+            <div class="work-2">
+                    <div class="text-container-2">
+
+                            <div class="time">2017-2018</div>
+                            <h4>Senior Web Developer</h4>
+                            <p class="working">Inhouse web designer for ecommerce firm</p>
+                   
+               
+                            <div class="time">2016-2015</div>
+                            <h4>Junior Web Developer</h4>
+                            <p class="working">Junior web designer for small web agency</p>
+                    </div>
+            </div>    
+
+
+           <!-- my-skills -->
+                <h2 class="about-h2">My Skills</h2>
+             
+        <p class="about-text">I use HTML ,CSS and Javascript to produce responsive websites and web apllications that provide users the best and most appropriate experience suited to the device and browser. </details>
+        <div class="skill-logo">
+                <img class="skill-logo-image" src="data:image/jpeg;base64,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" alt="skill-logo-image">
+            </div>  
+            
+            <div class="skills">
+                <p class="skill-p">I am familiar  and have worked with the following skills:</p>
+               
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>HTML</li>
+                        <li>Javascript</li>
+                        <li>Cloud Computing</li>
+                        <li>Bootstrap and CSS</li>
+                    </ul>
+            </div>      
+
+        </div>
+        <hr>
+
+          <!-- my portfolio with description ofn my project -->
+        <div class="portfolio-section">
+            <div class="my-projects" id="portfolio"> 
+                <h1 class="about-h1">My Projects</h1>
+                <p class="project-text">Listed below are some of the most representative projects I've worked on. They range from basic web design for presentation sites to advanced web development.</p>
+            </div>   
+
+             <!-- when hovering the projects -->
+            <div class="prj-clm-1">
+                <div class="image-container">
+                        <image class="project-1" id="mouse-hover-1" src="https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTExfHxzY2hvb2x8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="1sT-project-image"></image>
+                        <h5>School Website</h5>
+                        <p class="projecting" >Built a <strong>School Website</strong> where students from that school could easily login<br> and be able to register units and get hold of school materials and resources.</p>
+                   
+       
+                        <image class="project-2" id="mouse-hover-2" src="https://images.unsplash.com/photo-1508766917616-d22f3f1eea14?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTl8fGNvZmZlZSUyMHNob3AlMjBpbnRlcmlvcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="2nd-project-image"></image>
+                        <h5>Coffee Shop Website</h5>
+                        <p class="projecting">Built a <strong>Coffee Website</strong> where customers can order and be delivered to.They<br>could also give feedback on the coffee shop services.</p>
+                </div>
+        </div>           
+       
+        <div class="prj-clm-2">
+            <div class="image-container-2">
+
+                    <image class="project-3" id="mouse-hover-3" src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDJ8fG9ubGluZSUyMHNob3BwaW5nfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="3rd-project-image"></image>
+                    <h5>Online Shop Website</h5>
+                    <p class="projecting">Developed a <strong>Online Shop Website</strong> where it displayed all its products,clothes<br> and services they offer.Customers were able to puechase what they wanted<br> and they were provided delivery services. </p>
+           
+       
+                    
+                    <image class="project-4" id="mouse-hover-4"  src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cGhvdG9ncmFwaHl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="4th-project-image"></image>
+                    <h5>Photography Website</h5>
+                    <p class="projecting">Developed a <strong>Photography Website</strong> where the photographer displayed all his<br> photography work and offered do take photos for people at a fee.</p>
+            </div>
+    </div>    
+    <hr>
+   
+
+             <!-- contacts -->
+    <div class="contact-section">
+        <div class="my-projects" id="contacts"> 
+            <h1 class="about-h1">Contact Me</h1>
+
+                <p class="project-text">For any type of online project please don't hesitate to get in touch with me. The fastest way is to send me your message using the following email contact,<a class="blue no-line" href="wemzywemiscles@gmail.com">wemzywemiscles@gmail.com</a></p>
+                <form action="http://eepurl.com/hckj-j" method="POST" id="form1"></form>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Name" name="name" id="name">
+                    </div>
+                        
+                        <div class="col">
+                            <input type="email" class="form-control" placeholder="Email" name="name" id="email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message"></label>
+                        <textarea class="form-control" id="message" name="message"
+                            placeholder="Project Details"></textarea>
+                    
+                </div>
+                <button type="submit" class=" btn-primary" >Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- \*footer*\ -->
+    <footer class="ending">
+        <img class="social-icon" src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png" alt="twitter">
+        <img class="social-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/2048px-Facebook_icon.svg.png" alt="facebook">
+        <img class="social-icon" src="https://images.prismic.io/smarttask/1c150a8e-9f13-420e-8b0f-e6365219250f_slack.png?auto=compress,format" alt="slack">
+        <img class="social-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/512px-Gmail_icon_%282020%29.svg.png"alt="gmail">
+    
+        <p id="copyright">WEMMY WANGARI PORTFOLIO</p>
+        <p class="copy">2021 &copy;</p>
+
+        <img class="footer-image "src="https://seeklogo.com/images/M/mickey-mouse-logo-901E6DD420-seeklogo.com.png">
+
+
+        <!-- footer call to action -->
+        <div class="banner-call-to-action">
+            <a class="button-2" href="#contacts">Contact Me</a>
+            <a class="button-3" href="#contacts">Hire Me</a>
+        </div>
+    </footer>
+        
+
+        </div>    
+       
+
+
+
+
+        </div>
+</body>
+</html>
